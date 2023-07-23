@@ -35,3 +35,7 @@
     width: 100%;
     margin-top: 20px;
 }
+
+.ReactModal__Overlay{
+    background-color: rgba(000, 000, 000, 0.35) !important;
+}

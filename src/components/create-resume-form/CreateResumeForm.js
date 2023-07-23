@@ -132,7 +132,7 @@ const CreateResumeForm = () => {
       <Modal
         isOpen={open}
         onRequestClose={closeModal}
-        style={customStyles}
+        // style={customStyles}
         contentLabel="Example Modal"
       >
         <TemplateOne />
