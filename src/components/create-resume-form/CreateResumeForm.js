@@ -51,7 +51,6 @@ const CreateResumeForm = () => {
   return (
     <>
       <div className="wrapper">
-        {/* <TemplateOne /> */}
         <h4 className="resume-title">Resume Form</h4>
         <h6 className="block-title">Personal Details</h6>
         <Input
