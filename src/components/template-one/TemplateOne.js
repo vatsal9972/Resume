@@ -14,7 +14,7 @@ const TemplateOne = ({ data }) => {
       </div>
       {data.about_me.length > 0 && (
         <div class="summary">
-          <h2>About Me</h2>
+          <h2>ABOUT ME</h2>
           <p>{data.about_me}</p>
         </div>
       )}
@@ -83,19 +83,7 @@ const TemplateOne = ({ data }) => {
           {data.projects.map((project, i) => (
             <div key={i}>
               <h3>{project.project_name}</h3>
-              <p>Grade: {project.description}</p>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {data.projects.length > 0 && (
-        <div class="education">
-          <h2>PROJECTS</h2>
-          {data.projects.map((project, i) => (
-            <div key={i}>
-              <h3>{project.project_name}</h3>
-              <p>Grade: {project.description}</p>
+              <p> {project.description}</p>
             </div>
           ))}
         </div>
@@ -106,7 +94,7 @@ const TemplateOne = ({ data }) => {
           <h2>LANGUAGES</h2>
           {data.languages.map((language, i) => (
             <div key={i}>
-              <h3>{language}</h3>
+              <p>{language}</p>
             </div>
           ))}
         </div>
@@ -117,7 +105,7 @@ const TemplateOne = ({ data }) => {
           <h2>ACHIVEMENTS</h2>
           {data.achivements.map((achivement, i) => (
             <div key={i}>
-              <h3>{achivement}</h3>
+              <p>{achivement}</p>
             </div>
           ))}
         </div>
