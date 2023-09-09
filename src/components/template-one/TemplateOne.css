@@ -46,6 +46,7 @@
 }
 
 .summary h2,
+.language h2,
 .skill h2,
 .experience h2,
 .education h2 {
@@ -53,6 +54,13 @@
     font-weight: 700;
     color:#227c9d;
     margin: 22px auto 12px ;
+}
+
+.language p{
+    margin: 0 0 0 0;
+    color:rgb(46, 42, 42);
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .summary p,
@@ -80,6 +88,14 @@
     margin: 10px auto 0px 0px;
 }
 
+.language ul{
+    list-style-type:disc;
+    margin: 0px auto 0px 0px;
+    color:rgb(46, 42, 42);
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .experience h3,
 .education h3 { 
     font-size: 20px;
@@ -105,3 +121,4 @@ ul {
 .contact p:last-child {
     margin-bottom: 0;
 }
+

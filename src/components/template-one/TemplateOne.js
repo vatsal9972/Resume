@@ -90,22 +90,30 @@ const TemplateOne = ({ data }) => {
       )}
 
       {data.languages.length > 0 && (
-        <div class="education">
+        <div class="language">
           <h2>LANGUAGES</h2>
           {data.languages.map((language, i) => (
             <div key={i}>
-              <p>{language}</p>
+              <ul>
+                <li>
+                  <p>{language}</p>
+                </li>
+              </ul>
             </div>
           ))}
         </div>
       )}
 
       {data.achivements.length > 0 && (
-        <div class="education">
+        <div class="language">
           <h2>ACHIVEMENTS</h2>
           {data.achivements.map((achivement, i) => (
             <div key={i}>
-              <p>{achivement}</p>
+              <ul>
+                <li>
+                  <p>{achivement}</p>
+                </li>
+              </ul>
             </div>
           ))}
         </div>
