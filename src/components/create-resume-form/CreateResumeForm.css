@@ -1,5 +1,5 @@
 .wrapper{
-    max-width: 60%;
+    max-width: 50%;
     margin: 0 auto;
     padding: 10px;
     border-radius: 16px;
@@ -38,4 +38,9 @@
 
 .ReactModal__Overlay{
     background-color: rgba(000, 000, 000, 0.35) !important;
+}
+
+.mandatory{
+    color: red;
+    margin-left: 4px;
 }

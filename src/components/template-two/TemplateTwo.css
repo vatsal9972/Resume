@@ -1,4 +1,54 @@
-.resume {
+/* .body{
+    background-color: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.resume{
+    position:relative;
+    width: 100%;
+    min-height: 1000px;
+    max-width: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+ .left_side{
+    position:relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.right_side{
+    position:relative;
+    background:#fff;
+    padding: 40px;
+}
+
+.profileText{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    color:#fff;
+}
+
+
+ */
+
+
+
+
+
+
+
+/* .resume {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -45,7 +95,6 @@
     color:rgb(87, 83, 83);
 }
 
-.summary h2,
 .skill h2,
 .experience h2,
 .education h2 {
@@ -55,7 +104,6 @@
     margin: 22px auto 12px ;
 }
 
-.summary p,
 .skill p,
 .experience p,
 .education p {
@@ -104,4 +152,4 @@ ul {
 
 .contact p:last-child {
     margin-bottom: 0;
-}
+} */

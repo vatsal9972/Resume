@@ -58,7 +58,7 @@ const MultiExperience = ({ name, setResumeDetails }) => {
           style={{ width: "48%" }}
         />
         <input
-          type="number"
+          type="text"
           placeholder="Enter End Year"
           name="end_year"
           onChange={onChange}
