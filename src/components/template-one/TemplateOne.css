@@ -1,35 +1,60 @@
 .resume {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #b9c4d7;
+    border: 1px solid #b9c4d7 ;
     font-style: sans-serif;
+}
+.uppercontainer{
+    background-color: #304c63;
+    display: flex;
+}
+
+.rightcontainer{
+    padding: 0 24px 25px 0;
+    width: 80%;
+}
+
+.leftcontainer{
+   width:20%;
+   display: grid;
+   place-items: center;
+}
+
+.lowercontainer{
+    padding: 0 20px 20px;
+}
+
+.contact p{
+    font-weight: 450;
+    margin:auto;
+    color: white;
+}
+
+.contact p:last-child {
+    margin-bottom: 0;
 }
 
 .header {
     text-align: left;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    padding-top: 25px;
     margin-bottom: 0;
-    font-family:sans-serif;
 }
 
 .header h1 {
     font-weight: 550;
     font-size:42px;
-    color: black;
-    font-family:'Times New Roman';
+    color: white;
     margin: 0;
-}
-
-.header p { 
-    font-size: 20px;
-    font-weight: 545;
-    color: #227c9d;
-    margin: 5px 0;
+    font-family:serif;
 }
 
 .skill{
     color:rgb(87, 83, 83);
+}
+
+.skill li{
+    font-size: 15px;
 }
 
 .skills-container{
@@ -45,6 +70,12 @@
     color:rgb(87, 83, 83);
 }
 
+.experience_des li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-size: 14px;
+}
+
 .summary h2,
 .language h2,
 .skill h2,
@@ -53,7 +84,7 @@
     font-size: 17px;
     font-weight: 700;
     color:#227c9d;
-    margin: 22px auto 12px ;
+    margin: 16px auto 5px ;
 }
 
 .language p{
@@ -69,6 +100,7 @@
 .education p {
     color:rgb(46, 42, 42);
     font-size: 14px;
+    margin:0 0 5px 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -85,7 +117,7 @@
 
 .Softskill ul,
 .Techskill ul{
-    margin: 10px auto 0px 0px;
+    margin: 0px auto 0px 0px;
 }
 
 .language ul{
@@ -99,7 +131,7 @@
 .experience h3,
 .education h3 { 
     font-size: 20px;
-    margin: 10px 0;
+    margin: 0 auto 2px ;
 }
 
 .date {
@@ -109,16 +141,13 @@
 
 ul {
     list-style: disc;
-    margin-left: 20px;   
+    margin: 0px auto 0px 0px;
 }
 
-.contact p{
-    color: rgb(123, 119, 119);
-    font-weight: 450;
-    margin:auto;
+h4{
+    margin:0 0 0 0;
+    font-weight: 400;
+    color: black;
 }
 
-.contact p:last-child {
-    margin-bottom: 0;
-}
 
