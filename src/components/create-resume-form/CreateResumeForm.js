@@ -237,7 +237,7 @@ const CreateResumeForm = () => {
           </div>
           <div style={{ width: "80%" }}>
             {resumeNum === 1 && <TemplateOne data={resumeDetails} />}
-            {/* {resumeNum === 2 && <TemplateTwo data={resumeDetails} />} */}
+            {resumeNum === 2 && <TemplateTwo data={resumeDetails} />}
             {/* {resumeNum === 3 && <TemplateThree data={resumeDetails} />}
             {resumeNum === 4 && <TemplateFour data={resumeDetails} />} */}
           </div>
