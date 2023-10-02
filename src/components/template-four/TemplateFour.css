@@ -1,0 +1,182 @@
+.resume {
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #b9c4d7;
+    font-style: sans-serif;
+ 
+}
+
+
+.header {
+    text-align: left;
+    margin-top: 40px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+
+
+.header h1 {
+    font-weight: 550;
+    font-size:42px;
+    color: black;
+    margin: 0;
+}
+
+
+.skill{
+    color:rgb(87, 83, 83);
+}
+
+.skills-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+.experience,
+.education {
+    margin-bottom: 30px;
+    color:rgb(87, 83, 83);
+}
+.education p{
+    font-size: 2px;
+    color: aqua;
+}
+
+
+.experience h2,
+.education h2,.project h2,.achivements h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color:blue;
+    margin: 22px auto 12px ;
+}
+.summary h2,
+.skill h2{
+    font-size: 20px;
+    font-weight: 700;
+    color:blue;
+    margin: 22px auto 12px ;
+
+}
+
+.summary p,
+.experience p,
+.education p {
+    color:rgb(46, 42, 42);
+    font-size: 14px;
+   
+}
+
+.achivements p{
+    font-size: 15px;
+    color: black;
+}
+.Techskill h3,
+.Softskill h3{
+    margin-top: 0px;
+    color: rgb(18, 88, 65);
+    margin-bottom: 0px;
+}
+
+.Softskill ol,
+.Techskill ol{
+    margin: 3px auto 0px 0px;
+}
+
+
+.experience h3,
+.education h3 { 
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.ul {
+    list-style: disc;
+    margin-left: 20px;   
+}
+
+.contact p{
+    color: rgb(76, 76, 76);
+    font-weight: 450;
+    margin:auto;
+}
+
+.contact p:last-child {
+    margin-bottom: 0;
+}
+.project p{
+    color: black;
+}
+
+.separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+
+.experience-education-container {
+    display: flex;
+    justify-content: space-between; 
+  }
+.experience{
+    flex: 1;
+  }
+  .education{
+    flex: 1;
+  }
+  .projects-achievements-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .project{
+    flex: 1;
+  }
+.achivements{
+    flex: 1;
+}
+.language {
+    display: flex;
+    align-items: center;}
+  
+  .languages-list {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .language-item {
+    background-color: #f0f0f0; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 12;
+  
+  }
+  .Techskill,
+.Softskill{
+    width: 30%;
+}
+.experience h4,.education h4{
+    font-size: 18px;
+}
+  
+.image-container {
+    float: right; 
+    width: 25%; 
+    margin-top: 30px;
+  }
+  .first-name{
+    font-weight: 800;
+  }
+  .last-name{
+    font-weight: 400;
+  }
