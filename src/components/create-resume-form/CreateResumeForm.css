@@ -44,3 +44,15 @@
     color: red;
     margin-left: 4px;
 }
+
+.DownloadPdf{
+    outline: none;
+    padding: 8px 12px;
+    background-color: rgb(42, 31, 110);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 30%;
+    margin-top: 20px;
+
+}

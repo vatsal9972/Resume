@@ -11,6 +11,27 @@ import "./CreateResumeForm.css";
 import Select from "../select/Select";
 import ProfileSelectFile from "../profile-select-file/ProfileSelectFile";
 import TemplateTwo from "../template-two/TemplateTwo";
+import TemplateThree from "../template-three/TemplateThree";
+import TemplateFour from "../template-four/TemplateFour";
+import html2canvas from "html2canvas";
+import jsPDF from "jspdf";
+
+const pxToMm = (px) => {
+  return Math.floor(px / document.getElementById("myMm").offsetHeight);
+};
+
+const mmToPx = (mm) => {
+  return document.getElementById("myMm").offsetHeight * mm;
+};
+
+const range = (start, end) => {
+  return Array(end - start)
+    .join(0)
+    .split(0)
+    .map(function (val, id) {
+      return id + start;
+    });
+};
 
 const customStyles = {
   content: {
@@ -83,6 +104,47 @@ const CreateResumeForm = () => {
   console.log("resumeDetails", resumeDetails);
 
   const [resumeNum, setResumeNum] = useState(1);
+
+  const onGeneratePDF = (e) => {
+    e.preventDefault();
+    console.log("button clicked");
+    const input = document.getElementById("resume-form");
+    const inputHeightMm = pxToMm(input.offsetHeight - 200);
+    const a4WidthMm = 170;
+    const a4HeightMm = 100;
+    const a4HeightPx = mmToPx(a4HeightMm);
+    const numPages =
+      inputHeightMm <= a4HeightMm
+        ? 1
+        : Math.floor(inputHeightMm / a4HeightMm) + 1;
+    console.log({
+      input,
+      inputHeightMm,
+      a4HeightMm,
+      a4HeightPx,
+      numPages,
+      range: range(0, numPages),
+      comp: inputHeightMm <= a4HeightMm,
+      inputHeightPx: input.offsetHeight,
+    });
+
+    html2canvas(input).then((canvas) => {
+      const imgData = canvas.toDataURL("image/png");
+
+      let pdf;
+      // Document of a4WidthMm wide and inputHeightMm high
+      if (inputHeightMm > a4HeightMm) {
+        // elongated a4 (system print dialog will handle page breaks)
+        pdf = new jsPDF("p", "mm", [inputHeightMm + 16, a4WidthMm]);
+      } else {
+        // standard a4
+        pdf = new jsPDF();
+      }
+
+      pdf.addImage(imgData, "PNG", 0, 0);
+      pdf.save(`resume-form.pdf`);
+    });
+  };
 
   return (
     <>
@@ -204,6 +266,7 @@ const CreateResumeForm = () => {
           Submit
         </button>
       </div>
+
       <Modal
         isOpen={open}
         onRequestClose={closeModal}
@@ -214,7 +277,7 @@ const CreateResumeForm = () => {
           <div
             style={{ display: "flex", flexDirection: "column", width: "20%" }}
           >
-            {[1, 2, 3, 4, 5].map((num) => (
+            {[1, 2, 3, 4].map((num) => (
               <div
                 key={num}
                 style={{
@@ -226,7 +289,7 @@ const CreateResumeForm = () => {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  background: resumeNum === num ? "blue" : "none",
+                  background: resumeNum === num ? "cornflowerblue" : "none",
                   color: resumeNum === num ? "white" : "black",
                 }}
                 onClick={() => setResumeNum(num)}
@@ -238,9 +301,21 @@ const CreateResumeForm = () => {
           <div style={{ width: "80%" }}>
             {resumeNum === 1 && <TemplateOne data={resumeDetails} />}
             {resumeNum === 2 && <TemplateTwo data={resumeDetails} />}
-            {/* {resumeNum === 3 && <TemplateThree data={resumeDetails} />}
-            {resumeNum === 4 && <TemplateFour data={resumeDetails} />} */}
+            {resumeNum === 3 && <TemplateThree data={resumeDetails} />}
+            {resumeNum === 4 && <TemplateFour data={resumeDetails} />}
           </div>
+          <div id="myMm" style={{ height: "1mm" }} />
+        </div>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <button className="DownloadPdf" onClick={onGeneratePDF}>
+            Download PDF
+          </button>
         </div>
       </Modal>
     </>

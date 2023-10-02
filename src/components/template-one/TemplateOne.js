@@ -3,7 +3,7 @@ import "./TemplateOne.css";
 
 const TemplateOne = ({ data, imageContainerDisplay }) => {
   return (
-    <div class="resume">
+    <div id="resume-form" class="resume">
       <div class="uppercontainer">
         <div className="leftcontainer">
           <div style={{ display: imageContainerDisplay }} id="imageContainer">
