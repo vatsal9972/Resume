@@ -13,6 +13,7 @@ import ProfileSelectFile from "../profile-select-file/ProfileSelectFile";
 import TemplateTwo from "../template-two/TemplateTwo";
 import TemplateThree from "../template-three/TemplateThree";
 import TemplateFour from "../template-four/TemplateFour";
+import TemplateFive from "../template-five/TemplateFive";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
@@ -277,7 +278,7 @@ const CreateResumeForm = () => {
           <div
             style={{ display: "flex", flexDirection: "column", width: "20%" }}
           >
-            {[1, 2, 3, 4].map((num) => (
+            {[1, 2, 3, 4, 5].map((num) => (
               <div
                 key={num}
                 style={{
@@ -303,6 +304,7 @@ const CreateResumeForm = () => {
             {resumeNum === 2 && <TemplateTwo data={resumeDetails} />}
             {resumeNum === 3 && <TemplateThree data={resumeDetails} />}
             {resumeNum === 4 && <TemplateFour data={resumeDetails} />}
+            {resumeNum === 5 && <TemplateFive data={resumeDetails} />}
           </div>
           <div id="myMm" style={{ height: "1mm" }} />
         </div>

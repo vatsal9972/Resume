@@ -1,5 +1,5 @@
 .resumee {
-    max-width: 800px;
+    max-width: 800px;   
     margin: 20px auto; 
     padding: 20px;
     border: 1px solid #b9c4d7;
@@ -7,15 +7,12 @@
  
 }
 
-
 .headerr {
     text-align: left;
     margin-top: 40px;
     text-transform: uppercase;
     margin-bottom: 0;
 }
-
-
 
 .headerr h1 {
     font-weight: 550;
