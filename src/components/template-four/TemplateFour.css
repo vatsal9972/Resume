@@ -1,4 +1,4 @@
-.resume {
+.resumee {
     max-width: 800px;
     margin: 20px auto; 
     padding: 20px;
@@ -8,7 +8,7 @@
 }
 
 
-.header {
+.headerr {
     text-align: left;
     margin-top: 40px;
     text-transform: uppercase;
@@ -17,7 +17,7 @@
 
 
 
-.header h1 {
+.headerr h1 {
     font-weight: 550;
     font-size:42px;
     color: black;
@@ -25,37 +25,37 @@
 }
 
 
-.skill{
+.skiill{
     color:rgb(87, 83, 83);
 }
 
-.skills-container{
+.skiills-container{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     margin-bottom: 0px;
 }
 
-.experience,
-.education {
+.experiencee,
+.educaation {
     margin-bottom: 30px;
     color:rgb(87, 83, 83);
 }
-.education p{
+.educaation p{
     font-size: 2px;
     color: aqua;
 }
 
 
-.experience h2,
-.education h2,.project h2,.achivements h2 {
+.experiencee h2,
+.educaation h2,.projects h2,.achivements h2 {
     font-size: 25px;
     font-weight: 700;
     color:blue;
     margin: 22px auto 12px ;
 }
-.summary h2,
-.skill h2{
+.summaryy h2,
+.skiill h2{
     font-size: 20px;
     font-weight: 700;
     color:blue;
@@ -63,9 +63,9 @@
 
 }
 
-.summary p,
-.experience p,
-.education p {
+.summaryy p,
+.experiencee p,
+.educaation p {
     color:rgb(46, 42, 42);
     font-size: 14px;
    
@@ -75,21 +75,21 @@
     font-size: 15px;
     color: black;
 }
-.Techskill h3,
-.Softskill h3{
+.Techskiill h3,
+.Softskiill h3{
     margin-top: 0px;
     color: rgb(18, 88, 65);
     margin-bottom: 0px;
 }
 
-.Softskill ol,
-.Techskill ol{
+.Softskiill ol,
+.Techskiill ol{
     margin: 3px auto 0px 0px;
 }
 
 
-.experience h3,
-.education h3 { 
+.experiencee h3,
+.educaation h3 { 
     font-size: 20px;
     margin: 10px 0;
 }
@@ -104,16 +104,16 @@
     margin-left: 20px;   
 }
 
-.contact p{
+.contactt p{
     color: rgb(76, 76, 76);
     font-weight: 450;
     margin:auto;
 }
 
-.contact p:last-child {
+.contactt p:last-child {
     margin-bottom: 0;
 }
-.project p{
+.projects p{
     color: black;
 }
 
@@ -128,23 +128,23 @@
     display: flex;
     justify-content: space-between; 
   }
-.experience{
+.experiencee{
     flex: 1;
   }
-  .education{
+  .educaation{
     flex: 1;
   }
   .projects-achievements-container{
     display: flex;
     justify-content: space-between;
   }
-  .project{
+  .projects{
     flex: 1;
   }
 .achivements{
     flex: 1;
 }
-.language {
+.languagee {
     display: flex;
     align-items: center;}
   
@@ -161,15 +161,15 @@
     font-weight: 12;
   
   }
-  .Techskill,
-.Softskill{
+  .Techskiill,
+.Softskiill{
     width: 30%;
 }
-.experience h4,.education h4{
+.experience h4,.educaation h4{
     font-size: 18px;
 }
   
-.image-container {
+.image-containerr {
     float: right; 
     width: 25%; 
     margin-top: 30px;
