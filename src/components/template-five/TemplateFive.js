@@ -3,7 +3,7 @@ import "./TemplateFive.css";
 
 const TemplateFive = ({ data, imageContainerDisplay }) => {
   return (
-    <div class="resume">
+    <div id="resume-form" class="resume">
       <div className="sides">
         <div className="leftside">
           <div class="header">

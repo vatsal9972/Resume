@@ -3,7 +3,7 @@ import "./TemplateTwo.css";
 
 const TemplateTwo = ({ data, imageDisplay }) => {
   return (
-    <div className="Resume">
+    <div id="resume-form" class="resume">
       <div className="headerContainer">
         <div className="textContainer">
           <h1>{data.first_name + " " + data.last_name}</h1>

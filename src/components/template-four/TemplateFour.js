@@ -5,7 +5,7 @@ import "./TemplateFour.css";
 
 const TemplateFour = ({ data, imageContainerDisplay }) => {
   return (
-    <div class="resumee">
+    <div id="resume-form" class="resumee">
       <div className="image-containerr">
         <div style={{ display: imageContainerDisplay }} id="imageContainer">
           <img

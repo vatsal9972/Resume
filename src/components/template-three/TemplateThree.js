@@ -3,7 +3,7 @@ import "./TemplateThree.css";
 
 const TemplateThree = ({ data, imageContainerDisplay }) => {
   return (
-    <div class="resume">
+    <div id="resume-form" class="resume">
       <div class="top">
         <div class="header">
           <h1>{data.first_name + " " + data.last_name}</h1>
