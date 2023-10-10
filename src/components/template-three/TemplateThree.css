@@ -1,16 +1,12 @@
-.resume {
+/* .resume {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    /* border: 1px solid #b9c4d7; */
     font-style: sans-serif;
-    /* display: flex; 
-    flex-direction: column; */
 }
 
 .top {
     background-color: #0D0D0D;
-    /* background-color: rgb(123,132,159); */
     height: 147px;
     margin-left: 10px;
 }
@@ -143,7 +139,6 @@ ul {
 }
 
 .leftside {
-    /* width: 30%; */
     height: 100%;
     position: relative;
     background-color: rgb(187, 187, 187);
@@ -161,4 +156,4 @@ ul {
     padding-left: 10px;
     border-left: 2px solid black;
     flex: 2;
-}
+} */

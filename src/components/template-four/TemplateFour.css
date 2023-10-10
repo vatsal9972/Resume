@@ -43,19 +43,13 @@
     color: aqua;
 }
 
-
 .experiencee h2,
-.educaation h2,.projects h2,.achivements h2 {
-    font-size: 25px;
-    font-weight: 700;
-    color:blue;
-    margin: 22px auto 12px ;
-}
+.educaation h2,.projects h2,.achivements h2 ,
 .summaryy h2,
 .skiill h2{
     font-size: 20px;
     font-weight: 700;
-    color:blue;
+    color:rgb(28, 28, 28);
     margin: 22px auto 12px ;
 
 }

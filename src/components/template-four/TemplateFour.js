@@ -124,12 +124,11 @@ const TemplateFour = ({ data, imageContainerDisplay }) => {
             <h2>PROJECTS</h2>
             {data.projects.map((project, i) => (
               <div key={i}>
-                <h3>
+                <h4>
                   <span style={{ color: "#227c9d" }}>project Name:</span>
                   {project.project_name}
-                </h3>
+                </h4>
                 <p>
-                  {" "}
                   <span style={{ color: "#227c9d" }}>Discription:</span>
                   {project.description}
                 </p>
