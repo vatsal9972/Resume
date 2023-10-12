@@ -1,25 +1,38 @@
-/* .resume {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+.resume2 {
+    max-width: 750px;
+    /* margin: 20px auto; */
+    padding: 0;    
     font-style: sans-serif;
 }
 
-.top {
+
+.mypfimg {
+    margin-right:auto ;
+    border-radius: 50px;
+    width:20%;
+    display:grid;
+    place-items: center;
+ }
+
+.top2 {
     background-color: #0D0D0D;
     height: 147px;
     margin-left: 10px;
+    display: flex;
+    color: white;
+    position: relative;
 }
 
-.header {
+.header2 {
     font-family: sans-serif;
     padding-left: 78px;
     position: relative;
-    top: 14px;
+    top: -20px;
+    width:70%;
     right: 67px;
 }
 
-.header h1 {
+.header2 h1 {
     font-weight: 550;
     font-size: 42px;
     color: white;
@@ -27,39 +40,38 @@
     text-decoration: underline;
 }
 
-.contact {
+.cont2 {
     position: relative;
     left: 10px;
     bottom: 6px;
 }
 
-.contact span {
-    color: white;
+.cont2 span {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.down {
+.dn {
     padding-left: 10px;
     display: flex;
     flex: 1;
 }
 
-.skill {
+.skill2 {
     color: rgb(87, 83, 83);
 }
 
-.experience,
-.education {
+.expn,
+.edun {
     margin-bottom: 30px;
     color: rgb(87, 83, 83);
 }
 
-.summary h2,
-.language h2,
-.skill h2,
-.experience h2,
-.education h2 {
+.summary2 h2,
+.lng h2,
+.skill2 h2,
+.expn h2,
+.edun h2 {
     font-size: 17px;
     font-weight: 700;
     color: black;
@@ -68,45 +80,45 @@
 }
 
 
-.language p {
+.lng p {
     margin: 0 0 0 0;
     color: rgb(46, 42, 42);
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.summary p,
-.skill p,
-.experience p,
-.education p {
+.summary2 p,
+.skill2 p,
+.expn p,
+.edun p {
     color: rgb(46, 42, 42);
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.education ul li {
+.edun ul li {
     color: rgb(46, 42, 42);
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.Techskill,
-.Softskill {
+.Techskl,
+.Softskl {
     width: 60%;
 }
 
-.Techskill h3,
-.Softskill h3 {
+.Techskl h3,
+.Softskl h3 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.Softskill ul,
-.Techskill ul {
+.Softskl ul,
+.Techskl ul {
     margin: 0px auto 0px 0px;
 }
 
-.language ul {
+.lng ul {
     list-style-type: disc;
     margin: 0px auto 0px 0px;
     color: rgb(46, 42, 42);
@@ -114,13 +126,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.experience h3,
-.education h3 {
+.expn h3,
+.edun h3 {
     font-size: 20px;
     margin: 10px 0;
 }
 
-.date {
+.date2 {
     font-style: italic;
     margin-bottom: 10px;
 }
@@ -130,7 +142,7 @@ ul {
     margin-left: 20px;
 }
 
-.sides {
+.sides2 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -138,7 +150,7 @@ ul {
     flex: 1;
 }
 
-.leftside {
+.lftside {
     height: 100%;
     position: relative;
     background-color: rgb(187, 187, 187);
@@ -148,7 +160,7 @@ ul {
     flex: 1;
 }
 
-.rightside {
+.rgtside {
     width: 60%;
     height: 100%;
     position: relative;
@@ -156,4 +168,4 @@ ul {
     padding-left: 10px;
     border-left: 2px solid black;
     flex: 2;
-} */
+} 

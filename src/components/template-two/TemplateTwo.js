@@ -3,7 +3,7 @@ import "./TemplateTwo.css";
 
 const TemplateTwo = ({ data, imageDisplay }) => {
   return (
-    <div id="resume-form" class="resume">
+    <div id="resume-form" class="Resume">
       <div className="headerContainer">
         <div className="textContainer">
           <h1>{data.first_name + " " + data.last_name}</h1>
@@ -39,7 +39,6 @@ const TemplateTwo = ({ data, imageDisplay }) => {
                 <p>{education.college_name} </p>
               </div>
               <p>
-                {" "}
                 {"(" + education.start_year + "-" + education.end_year + ")"}
               </p>
 
@@ -86,9 +85,11 @@ const TemplateTwo = ({ data, imageDisplay }) => {
               <p>
                 {"(" + experience.start_year + "-" + experience.end_year + ")"}
               </p>
-              <p>
-                <li>{experience.description}</li>
-              </p>
+              <div className="expDescription">
+                <p>
+                  <li>{experience.description}</li>
+                </p>
+              </div>
             </div>
           ))}
         </div>
