@@ -39,6 +39,7 @@ const TemplateTwo = ({ data, imageDisplay }) => {
                 <p>{education.college_name} </p>
               </div>
               <p>
+                {" "}
                 {"(" + education.start_year + "-" + education.end_year + ")"}
               </p>
 
@@ -86,9 +87,9 @@ const TemplateTwo = ({ data, imageDisplay }) => {
                 {"(" + experience.start_year + "-" + experience.end_year + ")"}
               </p>
               <div className="expDescription">
-                <p>
-                  <li>{experience.description}</li>
-                </p>
+              <p>
+                <li>{experience.description}</li>
+              </p>
               </div>
             </div>
           ))}
