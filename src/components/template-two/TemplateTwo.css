@@ -1,7 +1,7 @@
 .Resume {
-  max-width: 750px;
-  margin: 20px auto ;
-  padding: 18px;
+  max-width: 780px;
+  margin: 20px auto auto 2px;
+  padding: 15px;
   border: 2px solid #8d9095;
 }
 .Resume h1,
@@ -36,7 +36,7 @@
 }
 
 .imageContainer {
-  margin-right:5px ;
+  margin-right:auto ;
   border-radius: 50px;
   width:20%;
   display:grid;
