@@ -12,7 +12,7 @@ const TemplateFour = ({ data, imageContainerDisplay }) => {
             id="selectedImage"
             src={data.profile_image}
             alt="Selected Image"
-            height={120}
+            height={125}
             width={110}
           />
         </div>

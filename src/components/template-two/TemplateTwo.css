@@ -1,5 +1,5 @@
 .Resume {
-  max-width: 780px;
+  max-width: 770px;
   margin: 20px auto auto 2px;
   padding: 15px;
   border: 2px solid #8d9095;
@@ -73,11 +73,12 @@
   margin: 1px auto 1px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
-.skill li,
+.skill1 li,
 .skill2 li,
 .expDescription li
 {
   color:black;
+  margin: 0 0 0 5px;
   font-size: 14px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }

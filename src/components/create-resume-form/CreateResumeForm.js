@@ -110,7 +110,7 @@ const CreateResumeForm = () => {
     e.preventDefault();
     console.log("button clicked");
     const input = document.getElementById("resume-form");
-    const a4WidthMm = 240;
+    const a4WidthMm = 191;
     const a4HeightMm = 170;
     const inputHeightMm = pxToMm(input.offsetHeight - 100);
     const a4HeightPx = mmToPx(a4HeightMm);
