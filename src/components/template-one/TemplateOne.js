@@ -10,7 +10,7 @@ const TemplateOne = ({ data, imageContainerDisplay }) => {
             <img
               id="selectedImage"
               src={data.profile_image}
-              alt="Selected Image"
+              alt="Selected Profile"
               height={125}
               width={110}
             />
